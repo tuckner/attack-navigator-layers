@@ -1,7 +1,7 @@
 # ATT&CK Navigator Layers
 Collection of layers to use with https://mitre-attack.github.io/attack-navigator/enterprise/
 
-## Resources:
+### Resources:
 
 Emotet: https://www.picussecurity.com/blog/the-christmas-card-you-never-wanted-a-new-wave-of-emotet-is-back-to-wreak-havoc.html
 
