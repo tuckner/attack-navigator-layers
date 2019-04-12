@@ -10,3 +10,5 @@ CrowdStrike Most Common: https://www.youtube.com/watch?v=Rg64nPqqs8s
 CrowdStrike Eval: https://attackevals.mitre.org/evaluations/crowdstrike.1.apt3.1.html
 
 CarbonBlack Eval: https://attackevals.mitre.org/evaluations/carbonblack.1.apt3.1.html
+
+Sysmon: https://github.com/olafhartong/sysmon-modular
