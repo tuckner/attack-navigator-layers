@@ -5,7 +5,7 @@ Collection of layers to use with https://mitre-attack.github.io/attack-navigator
 
 Emotet: https://www.picussecurity.com/blog/the-christmas-card-you-never-wanted-a-new-wave-of-emotet-is-back-to-wreak-havoc.html
 
-CrowdStrike Most Common: https://www.youtube.com/watch?v=Rg64nPqqs8s
+CrowdStrike Most Common: https://www.youtube.com/watch?v=Rg64nPqqs8s | https://www.crowdstrike.com/resources/reports/2019-crowdstrike-global-threat-report/
 
 CrowdStrike Eval: https://attackevals.mitre.org/evaluations/crowdstrike.1.apt3.1.html
 
