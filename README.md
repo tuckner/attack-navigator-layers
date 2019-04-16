@@ -12,3 +12,5 @@ CrowdStrike Eval: https://attackevals.mitre.org/evaluations/crowdstrike.1.apt3.1
 CarbonBlack Eval: https://attackevals.mitre.org/evaluations/carbonblack.1.apt3.1.html
 
 Sysmon: https://github.com/olafhartong/sysmon-modular
+
+Auditd: https://github.com/bfuzzy/auditd-attack
