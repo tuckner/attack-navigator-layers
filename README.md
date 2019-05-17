@@ -11,6 +11,11 @@ CrowdStrike Eval: https://attackevals.mitre.org/evaluations/crowdstrike.1.apt3.1
 
 CarbonBlack Eval: https://attackevals.mitre.org/evaluations/carbonblack.1.apt3.1.html
 
-Sysmon: https://github.com/olafhartong/sysmon-modular
+Sysmon: https://github.com/olafhartong/sysmon-modular & https://github.com/c2defense/windows-event-collection
 
 Auditd: https://github.com/bfuzzy/auditd-attack
+
+Atomic Red Team Coverage: https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/art_navigator_layer.json
+
+Windows Event Logs: https://github.com/c2defense/windows-event-collection
+
