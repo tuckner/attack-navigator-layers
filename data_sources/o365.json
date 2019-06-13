@@ -1,0 +1,138 @@
+{
+	"name": "Data sources - O365",
+	"version": "2.1",
+	"domain": "mitre-enterprise",
+	"description": "description",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"windows"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1221",
+			"tactic": "defense-evasion",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Email gateway"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Anti-virus, Email gateway, Network intrusion detection system, Web logs"
+				},
+				{
+					"name": "-Products",
+					"value": "O365"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1193",
+			"tactic": "initial-access",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Email gateway, Mail server"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Packet capture, Network intrusion detection system, Detonation chamber, Email gateway, Mail server"
+				},
+				{
+					"name": "-Products",
+					"value": "O365"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1192",
+			"tactic": "initial-access",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Email gateway, Mail server"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Web proxy, Email gateway, Detonation chamber, SSL/TLS inspection, DNS records, Mail server"
+				},
+				{
+					"name": "-Products",
+					"value": "O365"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1027",
+			"tactic": "defense-evasion",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Email gateway"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network protocol analysis, Process use of network, File monitoring, Malware reverse engineering, Binary file metadata, Process command-line parameters, Environment variable, Process monitoring, Windows event logs, Network intrusion detection system, Email gateway, SSL/TLS inspection"
+				},
+				{
+					"name": "-Products",
+					"value": "O365"
+				}
+			]
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [
+		{
+			"color": "#B8E1FB",
+			"label": "1-25% of data sources available"
+		},
+		{
+			"color": "#57B2E3",
+			"label": "26-50% of data sources available"
+		},
+		{
+			"color": "#227BB1",
+			"label": "51-75% of data sources available"
+		},
+		{
+			"color": "#203F6C",
+			"label": "76-99% of data sources available"
+		},
+		{
+			"color": "#182D57",
+			"label": "100% of data sources available"
+		}
+	],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}
