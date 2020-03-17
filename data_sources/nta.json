@@ -1450,24 +1450,16 @@
 	},
 	"legendItems": [
 		{
-			"color": "#B8E1FB",
-			"label": "1-25% of data sources available"
+			"label": "Model",
+			"color": "#6baed6"
 		},
 		{
-			"color": "#57B2E3",
-			"label": "26-50% of data sources available"
+			"label": "Vendor",
+			"color": "#74c476"
 		},
 		{
-			"color": "#227BB1",
-			"label": "51-75% of data sources available"
-		},
-		{
-			"color": "#203F6C",
-			"label": "76-99% of data sources available"
-		},
-		{
-			"color": "#182D57",
-			"label": "100% of data sources available"
+			"label": "Shared",
+			"color": "#9e9ac8"
 		}
 	],
 	"metadata": [],
