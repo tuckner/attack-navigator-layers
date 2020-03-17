@@ -1,0 +1,1477 @@
+{
+	"name": "NTA Coverage",
+	"version": "2.2",
+	"domain": "mitre-enterprise",
+	"description": "description",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"Windows"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1499",
+			"tactic": "impact",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis, SSL/TLS inspection, Network intrusion detection system, Web logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "SSL/TLS inspection, Web logs, Web application firewall logs, Network intrusion detection system, Network protocol analysis, Network device logs, Netflow/Enclave netflow"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1498",
+			"tactic": "impact",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis, Network intrusion detection system"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Sensor health and status, Network protocol analysis, Netflow/Enclave netflow, Network intrusion detection system, Network device logs"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1483",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, DNS records"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process use of network, Packet capture, Network device logs, Netflow/Enclave netflow, DNS records"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1205",
+			"tactic": "defense-evasion",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1205",
+			"tactic": "persistence",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1205",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1188",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network protocol analysis, Netflow/Enclave netflow"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1171",
+			"tactic": "credential-access",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Windows event logs, Windows Registry, Packet capture, Netflow/Enclave netflow"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1105",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Packet capture, Process use of network, Netflow/Enclave netflow, Network protocol analysis, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1105",
+			"tactic": "lateral-movement",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Packet capture, Process use of network, Netflow/Enclave netflow, Network protocol analysis, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1104",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Netflow/Enclave netflow, Network device logs, Network protocol analysis, Packet capture, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1102",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis, SSL/TLS inspection"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Host network interface, Netflow/Enclave netflow, Network protocol analysis, Packet capture, SSL/TLS inspection"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1102",
+			"tactic": "defense-evasion",
+			"color": "#227BB1",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis, SSL/TLS inspection"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Host network interface, Netflow/Enclave netflow, Network protocol analysis, Packet capture, SSL/TLS inspection"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1100",
+			"tactic": "persistence",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Anti-virus, Authentication logs, File monitoring, Netflow/Enclave netflow, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1100",
+			"tactic": "privilege-escalation",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Anti-virus, Authentication logs, File monitoring, Netflow/Enclave netflow, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1095",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis, Network intrusion detection system"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Host network interface, Netflow/Enclave netflow, Network intrusion detection system, Network protocol analysis, Packet capture, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1094",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis, Network intrusion detection system"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Process monitoring, Host network interface, Network intrusion detection system, Network protocol analysis"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1090",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process use of network, Process monitoring, Netflow/Enclave netflow, Packet capture"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1090",
+			"tactic": "defense-evasion",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process use of network, Process monitoring, Netflow/Enclave netflow, Packet capture"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1076",
+			"tactic": "lateral-movement",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, Netflow/Enclave netflow, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1071",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Malware reverse engineering, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1065",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Netflow/Enclave netflow, Process use of network, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1048",
+			"tactic": "exfiltration",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "User interface, Process monitoring, Process use of network, Packet capture, Netflow/Enclave netflow, Network protocol analysis"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1047",
+			"tactic": "execution",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Authentication logs, Netflow/Enclave netflow, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1046",
+			"tactic": "discovery",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Netflow/Enclave netflow, Network protocol analysis, Packet capture, Process command-line parameters, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1043",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "credential-access",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network device logs, Host network interface, Netflow/Enclave netflow, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "discovery",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network device logs, Host network interface, Netflow/Enclave netflow, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1032",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow, SSL/TLS inspection"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Malware reverse engineering, Process use of network, Process monitoring, SSL/TLS inspection"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1030",
+			"tactic": "exfiltration",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1029",
+			"tactic": "exfiltration",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Netflow/Enclave netflow, Process use of network, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1028",
+			"tactic": "execution",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Authentication logs, Netflow/Enclave netflow, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1028",
+			"tactic": "lateral-movement",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Authentication logs, Netflow/Enclave netflow, Process monitoring, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1026",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Malware reverse engineering, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1024",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Netflow/Enclave netflow, Process use of network, Malware reverse engineering, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1008",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Netflow/Enclave netflow"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Malware reverse engineering, Netflow/Enclave netflow, Packet capture, Process monitoring, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1496",
+			"tactic": "impact",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Azure activity logs, Stackdriver logs, AWS CloudTrail logs, Process use of network, Process monitoring, Network protocol analysis, Network device logs"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1493",
+			"tactic": "impact",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Network protocol analysis"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1207",
+			"tactic": "defense-evasion",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "API monitoring, Authentication logs, Network protocol analysis, Packet capture"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1219",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis, Network intrusion detection system"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network intrusion detection system, Network protocol analysis, Process use of network, Process monitoring"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1176",
+			"tactic": "persistence",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network protocol analysis, Packet capture, System calls, Process use of network, Process monitoring, Browser extensions"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1187",
+			"tactic": "credential-access",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Network protocol analysis, Network device logs, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1135",
+			"tactic": "discovery",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Process monitoring, Process command-line parameters, Network protocol analysis, Process use of network"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1132",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Process use of network, Process monitoring, Network protocol analysis"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1108",
+			"tactic": "defense-evasion",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Office 365 account logs, Azure activity logs, AWS CloudTrail logs, Stackdriver logs, Process monitoring, Process use of network, Packet capture, Network protocol analysis, File monitoring, Authentication logs, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1108",
+			"tactic": "persistence",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Office 365 account logs, Azure activity logs, AWS CloudTrail logs, Stackdriver logs, Process monitoring, Process use of network, Packet capture, Network protocol analysis, File monitoring, Authentication logs, Binary file metadata"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1027",
+			"tactic": "defense-evasion",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis, SSL/TLS inspection, Network intrusion detection system"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network protocol analysis, Process use of network, File monitoring, Malware reverse engineering, Binary file metadata, Process command-line parameters, Environment variable, Process monitoring, Windows event logs, Network intrusion detection system, Email gateway, SSL/TLS inspection"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1018",
+			"tactic": "discovery",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Network protocol analysis, Process monitoring, Process use of network, Process command-line parameters"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1001",
+			"tactic": "command-and-control",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network protocol analysis"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Process use of network, Process monitoring, Network protocol analysis"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1534",
+			"tactic": "lateral-movement",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "SSL/TLS inspection, DNS records"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "SSL/TLS inspection, DNS records, Anti-virus, Web proxy, File monitoring, Mail server, Office 365 trace logs"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1189",
+			"tactic": "initial-access",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "SSL/TLS inspection, Network intrusion detection system"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Network device logs, Process use of network, Web proxy, Network intrusion detection system, SSL/TLS inspection"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1194",
+			"tactic": "initial-access",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "SSL/TLS inspection"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "SSL/TLS inspection, Anti-virus, Web proxy"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1192",
+			"tactic": "initial-access",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "SSL/TLS inspection, DNS records"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Web proxy, Email gateway, Detonation chamber, SSL/TLS inspection, DNS records, Mail server"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1172",
+			"tactic": "command-and-control",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "SSL/TLS inspection"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "SSL/TLS inspection, Packet capture"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1130",
+			"tactic": "defense-evasion",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "SSL/TLS inspection"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "SSL/TLS inspection, Digital certificate logs"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1221",
+			"tactic": "defense-evasion",
+			"color": "#57B2E3",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network intrusion detection system, Web logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Anti-virus, Email gateway, Network intrusion detection system, Web logs"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1193",
+			"tactic": "initial-access",
+			"color": "#9e9ac8",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Network intrusion detection system"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "File monitoring, Packet capture, Network intrusion detection system, Detonation chamber, Email gateway, Mail server"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1491",
+			"tactic": "impact",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Web logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Packet capture, Web application firewall logs, Web logs, Packet capture"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1190",
+			"tactic": "initial-access",
+			"color": "#B8E1FB",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "-Available data sources",
+					"value": "Web logs"
+				},
+				{
+					"name": "-ATT&CK data sources",
+					"value": "Azure activity logs, AWS CloudTrail logs, Stackdriver logs, Packet capture, Web logs, Web application firewall logs, Application logs"
+				},
+				{
+					"name": "-Products",
+					"value": "NTA/IDS"
+				}
+			]
+		},
+		{
+			"techniqueID": "T1087",
+			"tactic": "discovery",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1098",
+			"tactic": "credential-access",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1020",
+			"tactic": "exfiltration",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1110",
+			"tactic": "credential-access",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1223",
+			"tactic": "execution",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1175",
+			"tactic": "lateral-movement",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1081",
+			"tactic": "credential-access",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1002",
+			"tactic": "exfiltration",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1022",
+			"tactic": "exfiltration",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1106",
+			"tactic": "execution",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1041",
+			"tactic": "exfiltration",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1011",
+			"tactic": "exfiltration",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1210",
+			"tactic": "lateral-movement",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1133",
+			"tactic": "persistence",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1208",
+			"tactic": "credential-access",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1075",
+			"tactic": "lateral-movement",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1097",
+			"tactic": "lateral-movement",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1086",
+			"tactic": "execution",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1145",
+			"tactic": "credential-access",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1051",
+			"tactic": "lateral-movement",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1072",
+			"tactic": "lateral-movement",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "initial-access",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1077",
+			"tactic": "lateral-movement",
+			"color": "#74c476",
+			"comment": "",
+			"enabled": true,
+			"metadata": []
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [
+		{
+			"color": "#B8E1FB",
+			"label": "1-25% of data sources available"
+		},
+		{
+			"color": "#57B2E3",
+			"label": "26-50% of data sources available"
+		},
+		{
+			"color": "#227BB1",
+			"label": "51-75% of data sources available"
+		},
+		{
+			"color": "#203F6C",
+			"label": "76-99% of data sources available"
+		},
+		{
+			"color": "#182D57",
+			"label": "100% of data sources available"
+		}
+	],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": false
+}
