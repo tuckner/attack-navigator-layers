@@ -19,3 +19,4 @@ Atomic Red Team Coverage: https://github.com/redcanaryco/atomic-red-team/blob/ma
 
 Windows Event Logs: https://github.com/c2defense/windows-event-collection
 
+Capital One Breach: http://thewindowsupdate.com/2019/11/18/hunting-for-capital-one-breach-ttps-in-aws-logs-using-azure-sentinel-part-i/
